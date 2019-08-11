@@ -1,0 +1,45 @@
+main, h1, h2, p, div, section {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    flex: 1;
+    color: #fff;
+    background-color: #65A5FA;
+    text-align: center;
+    line-height: 160px;
+}
+
+div.resume-box {
+    flex: 4;
+    margin-left: 20px;
+}
+
+section > h2 {
+    line-height: 80px;
+}
+
+p {
+    font-weight: bold;
+}
+
+p > span.mar-left {
+    margin-left: 30px;
+}
+
+p > span.content {
+    color: #343434;
+    font-weight: 600;
+}
+
+section.basic-msg > p > .content,
+section.contact > p > .content {
+    margin-left: 5px;
+}
