@@ -43,3 +43,9 @@ section.basic-msg > p > .content,
 section.contact > p > .content {
     margin-left: 5px;
 }
+
+section:nth-child(3) > p:last-child,
+section:nth-child(4) > p:last-child,
+section:nth-child(5) > p:last-child {
+    margin-top: 25px;
+}
