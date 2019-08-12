@@ -1,4 +1,4 @@
-main, h1, h2, p, div, section {
+body, main, h1, h2, p, div, section {
     margin: 0;
     padding: 0;
 }
